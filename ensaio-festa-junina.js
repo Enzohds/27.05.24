@@ -33,17 +33,56 @@ pessoa[16] = new Pessoa(pop-rock, tranças, 31, negro, excelente, 1.78, perfeica
 
 
 var musica = [];
-musica[0] = new Musica(parametro1, parametro2);
-musica[1] = new Musica(parametro1, parametro2);
+musica[1] = new Musica("rock", "Let It Be", "The Beatles", "Rock", 1969);
+musica[2] = new Musica("jazz", "Take Five", "Dave Brubeck Quartet", "Jazz", 1959);
+musica[3] = new Musica("pop", "Thriller", "Michael Jackson", "Pop", 1982);
+musica[4] = new Musica("blues", "Stairway to Heaven", "Led Zeppelin", "Blues Rock", 1971);
+musica[5] = new Musica("reggae", "No Woman, No Cry", "Bob Marley", "Reggae", 1974);
+musica[6] = new Musica("hip-hop", "Lose Yourself", "Eminem", "Hip-Hop", 2002);
+musica[7] = new Musica("country", "Ring of Fire", "Johnny Cash", "Country", 1963);
+musica[8] = new Musica("samba", "Aquarela do Brasil", "Ary Barroso", "Samba", 1939);
+musica[9] = new Musica("classical", "Symphony No. 9", "Ludwig van Beethoven", "Classical", 1824);
+musica[10] = new Musica("metal", "Master of Puppets", "Metallica", "Heavy Metal", 1986);
+musica[11] = new Musica("folk", "The Times They Are a-Changin'", "Bob Dylan", "Folk", 1964);
+musica[12] = new Musica("electronic", "Around the World", "Daft Punk", "Electronic", 1997);
+musica[13] = new Musica("punk", "London Calling", "The Clash", "Punk Rock", 1979);
+musica[14] = new Musica("r&b", "I Heard It Through the Grapevine", "Marvin Gaye", "Rhythm and Blues", 1968);
+musica[15] = new Musica("latin", "La Bamba", "Ritchie Valens", "Latin", 1958);
+musica[16] = new Musica("disco", "Stayin' Alive", "Bee Gees", "Disco", 1977);
+
 var ritmo = [];
-ritmo[0] = new Ritmo(parametro1, parametro2);
-ritmo[1] = new Ritmo(parametro1, parametro2 );
+ritmo[1] = new Ritmo("Salsa", "Caribenho");
+ritmo[2] = new Ritmo("Funk", "Brasileiro");
+ritmo[3] = new Ritmo("Hip-Hop", "Americano");
+ritmo[4] = new Ritmo("Flamenco", "Espanhol");
+ritmo[5] = new Ritmo("K-Pop", "Coreano");
+ritmo[6] = new Ritmo("Samba", "Brasileiro");
+ritmo[7] = new Ritmo("Reggaeton", "Latino");
+ritmo[8] = new Ritmo("Jazz", "Americano");
+ritmo[9] = new Ritmo("Bollywood", "Indian");
+ritmo[10] = new Ritmo("Afrobeat", "Africano");
+
 var local_do_ensaio = [];
-local_do_ensaio[0] = new LocalDoEnsaio(parametro1, parametro2, etc);
-local_do_ensaio[1] = new LocalDoEnsaio(parametro1, parametro2, etc);
+local_do_ensaio[1] = new LocalDoEnsaio("Estúdio XYZ", "Rua A, 123", "Cidade A", "Estado A");
+local_do_ensaio[2] = new LocalDoEnsaio("Sala de ensaio ABC", "Avenida B, 456", "Cidade B", "Estado B");
+local_do_ensaio[3] = new LocalDoEnsaio("Espaço de música 123", "Rua C, 789", "Cidade C", "Estado C");
+local_do_ensaio[4] = new LocalDoEnsaio("Estúdio 789", "Rua D, 456", "Cidade D", "Estado D");
+local_do_ensaio[5] = new LocalDoEnsaio("Sala de ensaio DEF", "Avenida E, 123", "Cidade E", "Estado E");
+local_do_ensaio[6] = new LocalDoEnsaio("Espaço musical 456", "Rua F, 789", "Cidade F", "Estado F");
+local_do_ensaio[7] = new LocalDoEnsaio("Estúdio GHI", "Avenida G, 456", "Cidade G", "Estado G");
+local_do_ensaio[8] = new LocalDoEnsaio("Sala de ensaio GHI", "Rua H, 123", "Cidade H", "Estado H");
+local_do_ensaio[9] = new LocalDoEnsaio("Espaço de música JKL", "Avenida I, 789", "Cidade I", "Estado I");
+local_do_ensaio[10] = new LocalDoEnsaio("Estúdio MNO", "Rua J, 456", "Cidade J", "Estado J");
+
 var banheiro = [];
-banheiro[0] = new Banheiro(parametro1, parametro2, );
-banheiro[1] = new Banheiro(parametro1, parametro2);
+banheiro[1] = new Banheiro("Banheiro 1", "Corredor A", 2, "azulejos brancos", "pia de mármore", true, ["toalhas", "sabonete líquido"]);
+banheiro[2] = new Banheiro("Banheiro 2", "Corredor B", 3, "azulejos azuis", "pia de granito", false, ["papel higiênico", "sabonete em barra"]);
+banheiro[3] = new Banheiro("Banheiro 3", "Corredor C", 1, "azulejos vermelhos", "pia de porcelana", true, ["toalhas de papel", "desinfetante"]);
+banheiro[4] = new Banheiro("Banheiro 4", "Corredor D", 2, "azulejos verdes", "pia de plástico", false, ["papel toalha", "saboneteira"]);
+banheiro[5] = new Banheiro("Banheiro 5", "Corredor E", 3, "azulejos amarelos", "pia de alumínio", true, ["lenços umedecidos", "álcool em gel"]);
+banheiro[6] = new Banheiro("Banheiro 6", "Corredor F", 1, "azulejos roxos", "pia de vidro", false, ["perfume", "hidratante"]);
+banheiro[7] = new Banheiro("Banheiro 7", "Corredor G", 2, "azulejos brancos", "pia de mármore", true, ["toalhas", "sabonete líquido"]);
+banheiro[8] = new Banheiro("Banheiro 8", "Corredor H", 3, "azulejos azuis", "pia de granito", false, ["papel higiênico", "sabonete em barra"]);
 
 
 
